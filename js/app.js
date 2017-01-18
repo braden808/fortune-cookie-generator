@@ -3,7 +3,7 @@ var names = ["you suck", "you suck more", "you suck the most", "you sucky suck s
 function makeFortune() {
 	var localarray = names.slice();
     var node = document.createElement("LI");
-	var textnode = document.createTextNode(names[]);
+	var textnode = document.createTextNode(names[randomFortune]);
     for (var i = 4; i >= 0; i--) {
       randomFortune = (Math.floor(Math.random() * (i + 1)), 1);;
     }
