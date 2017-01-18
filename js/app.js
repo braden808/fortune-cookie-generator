@@ -5,7 +5,7 @@ function makeFortune() {
     var node = document.createElement("LI");
 	var textnode = document.createTextNode(names[randomFortune]);
     for (var i = 4; i >= 0; i--) {
-      randomFortune = (Math.floor(Math.random() * (i + 1)), 1);;
+      randomFortune = Math.floor((Math.random() * 5) + 1);
     }
     node.appendChild(textnode);
     document.getElementById("fortune-cookie-text").appendChild(node);
